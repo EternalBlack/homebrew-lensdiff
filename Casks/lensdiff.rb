@@ -3,12 +3,12 @@ cask "lensdiff" do
 
   on_arm do
     url "https://github.com/EternalBlack/LensDiff/releases/download/v#{version}/LensDiff_#{version}_aarch64.dmg"
-    sha256 "624420696cf63544f80825438a9f7cefd073153ab9bd95542b2d1a053a5761d4"
+    sha256 "5135f1f9c64cfa3f39fb85a81ad269964a526b4b7283c06b6a7c0b3b7ba4de1e"
   end
 
   on_intel do
     url "https://github.com/EternalBlack/LensDiff/releases/download/v#{version}/LensDiff_#{version}_x64.dmg"
-    sha256 "68150f34135c5e9ca80f93db3a0588cbc41a5be6d7ffbd0ba5bcdccee09c7f2f"
+    sha256 "32aade248f8bbae7678dc46fec597f46dd505b2a88e6ac916ed9e3bdfada8a6b"
   end
 
   name "LensDiff"
